@@ -1,0 +1,14 @@
+list:
+
+ 编译命令:
+ make           //编译矩阵键盘内核驱动模块,等到rha-i2c.ko
+ make app       //编译按键调试程序,等到i2ctest
+ make clean     //清理工程
+
+使用方法：
+insmod rha-i2c.ko        //插入驱动模块
+rmmod rha-i2c            //卸载驱动模块
+./i2c /dev/rha_i2c_x addr <r/R/w/W> <reg> [val]      //读写i2c寄存器
+
+
+

@@ -1,0 +1,1 @@
+cmd_/opt/work/Ghana/PISC/i2c/rha-i2c.o := /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o /opt/work/Ghana/PISC/i2c/rha-i2c.o /opt/work/Ghana/PISC/i2c/rha_i2c.o 
